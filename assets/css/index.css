@@ -332,6 +332,45 @@
   .contenitoreSvg {
     display: none;
   }
+  .containerGeneraleTrending {
+    padding: 18px 18px;
+  }
+  .variTrending {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+  }
+  .totalTrending {
+    margin-top: 20px;
+  }
+  .racchiudeSezioni {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  aside {
+    height: 0%;
+    position: static;
+  }
+  .dimensioniii {
+    margin: 0 10px;
+  }
+  .articoliStile {
+    margin-top: 30px;
+  }
+  .otherText h3 {
+    font-size: 10px;
+  }
+  .otherContainer {
+    font-size: 8px;
+  }
+  .otherText div img {
+    height: auto;
+    width: 19px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
