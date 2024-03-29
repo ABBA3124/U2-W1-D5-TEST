@@ -63,9 +63,11 @@
   border-radius: 40px;
   font-size: 14px;
   padding: 10px;
-  background-color: #242424;
   color: white;
   cursor: pointer;
+}
+.coloreBottone {
+  background-color: #242424;
 }
 /* inizoo contenuto sotto header  */
 .inlineBlock {
@@ -300,4 +302,7 @@ aside h1 {
 /* extra js cambio colore header */
 .headerScuro {
   background-color: #ffffff; /*cambia colore allo scroolllll*/
+}
+.coloreBottoneGreen {
+  background-color: #1a8917;
 }
