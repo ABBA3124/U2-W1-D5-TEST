@@ -219,6 +219,8 @@
     display: flex;
     align-items: center;
     margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 10px;
   }
   .logoUtenteScroll img {
     border-radius: 40px;
@@ -283,6 +285,7 @@
   }
   aside h1 {
     font-weight: bold;
+    text-transform: uppercase;
   }
   .bottoniiii button {
     padding: 8px;
@@ -291,6 +294,7 @@
     cursor: pointer;
     border-color: #80808054;
     color: #808080;
+    background-color: #ffffff00;
   }
   .bottoniiii {
     padding: 10px 0px 10px;
@@ -373,6 +377,59 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   /* Stili per tablet qui */
+  .contenutoTestoSottoHeader > h1 {
+    font-size: 44px;
+  }
+  .contenutoTestoSottoHeader p {
+    font-size: 20px;
+  }
+  .prova2 {
+    align-items: center;
+  }
+  .totalTrending {
+    width: 34%;
+  }
+  .containerGeneraleTrending {
+    padding: 50px 85px;
+  }
+  .variTrending {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+  }
+  .allineamentoTitolo img {
+    margin-left: 89px;
+  }
+  .racchiudeSezioni {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  aside {
+    height: 0%;
+    position: static;
+  }
+  .dimensioniii {
+    margin: 0 208px;
+  }
+  .articoliStile {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .otherText h3 {
+    font-size: 17px;
+  }
+  .otherContainer {
+    font-size: 12px;
+  }
+  .otherText div img {
+    height: auto;
+    width: 25px;
+  }
 }
