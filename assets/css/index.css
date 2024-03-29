@@ -201,6 +201,7 @@
 section {
   display: block;
   unicode-bidi: isolate;
+  margin-bottom: 100px;
   /* background-color: steelblue; */
 }
 aside {
