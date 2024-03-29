@@ -260,7 +260,7 @@ section {
 }
 /* aside*/
 aside {
-  background-color: chocolate;
+  /* background-color: chocolate; */
   display: block;
   unicode-bidi: isolate;
   grid-column: 9 / span 4;
@@ -284,8 +284,8 @@ aside h1 {
 .lista span {
   list-style: none;
   cursor: pointer;
-  height: 100%;
-  width: auto;
+  margin-right: 15px;
+  line-height: 25px;
 }
 .lista {
   padding: 20px 0px 0px;
