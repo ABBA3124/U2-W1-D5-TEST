@@ -15,9 +15,12 @@
   width: 100%;
   border-bottom: 1px solid #242424;
   z-index: 9999;
-  background-color: #ffc017;
   position: fixed;
   top: 0;
+  transition: background-color 0.5s ease;
+}
+.coloreHeader {
+  background-color: #ffc017;
 }
 .contenutoHeader {
   justify-content: center;
@@ -293,4 +296,8 @@ aside h1 {
 }
 .lista {
   padding: 20px 0px 0px;
+}
+/* extra js cambio colore header */
+.headerScuro {
+  background-color: #ffffff; /*cambia colore allo scroolllll*/
 }
