@@ -274,6 +274,10 @@ aside {
   unicode-bidi: isolate;
   grid-column: 9 / span 4;
   grid-row-start: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  height: 60px;
 }
 aside h1 {
   font-weight: bold;
