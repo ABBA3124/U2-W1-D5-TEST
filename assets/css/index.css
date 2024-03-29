@@ -281,9 +281,12 @@ aside h1 {
   padding: 10px 0px 10px;
   border-bottom: 1px solid gray;
 }
-.lista ul li {
+.lista span {
   list-style: none;
   cursor: pointer;
+  height: 100%;
+  width: auto;
 }
-.lista ul {
+.lista {
+  padding: 20px 0px 0px;
 }
