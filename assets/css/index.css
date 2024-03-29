@@ -204,13 +204,6 @@ section {
   margin-bottom: 100px;
   /* background-color: steelblue; */
 }
-aside {
-  background-color: chocolate;
-  display: block;
-  unicode-bidi: isolate;
-  grid-column: 9 / span 4;
-  grid-row-start: 1;
-}
 .logoUtenteScroll {
   display: flex;
   align-items: center;
@@ -264,4 +257,33 @@ aside {
 }
 .utenteImmagine {
   width: 100%;
+}
+/* aside*/
+aside {
+  background-color: chocolate;
+  display: block;
+  unicode-bidi: isolate;
+  grid-column: 9 / span 4;
+  grid-row-start: 1;
+}
+aside h1 {
+  font-weight: bold;
+}
+.bottoniiii button {
+  padding: 8px;
+  margin-bottom: 7px;
+  border-radius: 6px;
+  cursor: pointer;
+  border-color: #80808054;
+  color: #808080;
+}
+.bottoniiii {
+  padding: 10px 0px 10px;
+  border-bottom: 1px solid gray;
+}
+.lista ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.lista ul {
 }
