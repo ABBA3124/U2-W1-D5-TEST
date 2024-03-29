@@ -15,6 +15,9 @@
   width: 100%;
   border-bottom: 1px solid #242424;
   z-index: 9999;
+  background-color: #ffc017;
+  position: fixed;
+  top: 0;
 }
 .contenutoHeader {
   justify-content: center;
@@ -64,6 +67,7 @@
 /* inizoo contenuto sotto header  */
 .inlineBlock {
   display: block;
+  margin-top: 30px;
 }
 .contenutoPrimo {
   display: flex;
