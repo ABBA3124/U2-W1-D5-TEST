@@ -21,4 +21,23 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
-  
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const paths = document.querySelectorAll('svg g g path'); 
+
+    setInterval(function() {
+        paths.forEach(function(path) {
+            const opacità = Math.random(); 
+            path.style.opacity = opacità;
+        });
+    }, 700); 
+});
+
+
+
+
+
+
+
+
