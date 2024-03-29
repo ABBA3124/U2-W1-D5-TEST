@@ -89,7 +89,7 @@
   width: 100%;
 }
 .contenutoTestoSottoHeader {
-  width: 720px;
+  width: 700px;
   height: 100%;
   padding: 56px;
 }
@@ -118,7 +118,7 @@
 }
 /* trending */
 .containerGeneraleTrending {
-  padding: 50px 328px;
+  padding: 50px 320px;
   border: 1px solid #80808054;
 }
 .dimensioniFullTrending {
@@ -194,7 +194,7 @@
 }
 .dimensioniii {
   /* background-color: #ffc017; */
-  max-width: 1192px;
+  max-width: 1250px;
   min-width: 0px;
   margin: 0 64px;
 }
@@ -299,6 +299,7 @@ aside h1 {
   cursor: pointer;
   margin-right: 15px;
   line-height: 25px;
+  color: #808080;
 }
 .lista {
   padding: 20px 0px 0px;
