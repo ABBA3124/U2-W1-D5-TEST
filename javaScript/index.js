@@ -1,38 +1,38 @@
 document.addEventListener("DOMContentLoaded", function() {
     // header e il bottone get e il div 
-    var header = document.querySelector(".contenitoreHederESotto header");
-    var bottoneGetStarted = document.querySelector("#getStarted");
-    var targetDiv = document.querySelector(".inlineBlock");
+    const header = document.querySelector(".contenitoreHederESotto header")
+    const bottoneGetStarted = document.querySelector("#getStarted")
+    const targetDiv = document.querySelector(".inlineBlock")
   
     window.addEventListener('scroll', function() {
       // posizione dello scroll + la posizione finale del div
-      var scrollPosition = window.scrollY || document.documentElement.scrollTop;
-      var targetDivPosition = targetDiv.offsetTop + targetDiv.offsetHeight;
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop
+      const targetDivPosition = targetDiv.offsetTop + targetDiv.offsetHeight
   
       // check se ci siamo
       if(scrollPosition >= targetDivPosition) {
           // agginge classe per cambiare all' header e al bottone 
-        header.classList.add("headerScuro");
-        bottoneGetStarted.classList.add("coloreBottoneGreen");
+        header.classList.add("headerScuro")
+        bottoneGetStarted.classList.add("coloreBottoneGreen")
       } else {
           //rimuove le classi
-        header.classList.remove("headerScuro");
-        bottoneGetStarted.classList.remove("coloreBottoneGreen");
+        header.classList.remove("headerScuro")
+        bottoneGetStarted.classList.remove("coloreBottoneGreen")
       }
-    });
-  });
+    })
+  })
 
 
   document.addEventListener('DOMContentLoaded', function() {
-    const paths = document.querySelectorAll('svg g g path'); 
+    const paths = document.querySelectorAll('svg g g path')
 
     setInterval(function() {
         paths.forEach(function(path) {
-            const opacità = Math.random(); 
+            const opacità = Math.random()
             path.style.opacity = opacità;
-        });
-    }, 700); 
-});
+        })
+    }, 700)
+})
 
 
 
